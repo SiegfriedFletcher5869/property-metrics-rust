@@ -1,0 +1,12 @@
+[package]
+name = "property-metrics-rust"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "property_metrics"
+path = "src/property_metrics.rs"
+
+[lib]
+name = "property_metrics"
+path = "src/lib.rs"
